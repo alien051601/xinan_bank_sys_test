@@ -1,0 +1,4 @@
+{
+  "register_login_forgetpw.py::Register_Login_ForgetPW::test_204_login": true,
+  "register_login_forgetpw.py::Register_Login_ForgetPW::test_7_login": true
+}
