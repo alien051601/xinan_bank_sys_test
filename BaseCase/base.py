@@ -167,28 +167,3 @@ if __name__ =="__main__":
     b = BaseApi()
     print(b.get_full_api_url())
     print(b.get_token())
-#     data = {'phoneNum': '18616300003', 'passWord': 'C3pwf3Cz/0Ofk/QV7CHWvA==', 'token': '47a9c322d1724b9bb8c4864c3e155591', 'client': 1, 'platform': 'HLW'}
-#
-#     r = b.post_base_parameter(url='http://192.168.7.228:8098/v1/api/common/getToken',data=data)
-#     print(r)
-
-
-
-#     data = {'word': 'hello'}
-#     url = b.get_full_api_url()
-#     print("full_url:", url)
-#     print(b.post_common(url, data))
-    # #
-    # # print(b.get_info_by_name('token'))
-    # token = b.get_token()
-    # print(token)
-    # print(b.get_imageCode(token))
-
-    # url = "http://api-test2.chinazyjr.net/v1/api/common/getValidateImage"
-    # token = b.get_token()
-    # data = {"token": token}
-    # r = b.get_common(url,data)
-    # print(r.status)
-
-    # token = b.get_token()
-    # b.get_imageCode(token)

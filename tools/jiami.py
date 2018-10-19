@@ -4,7 +4,7 @@ from binascii import b2a_base64, a2b_base64
 
 class Prpcrypt(object):
     # 解密的秘钥
-    key = b"c572ea1baopaw598"
+    key = b"alien"
     aes = AES.new(key, AES.MODE_ECB)
     text = str()
     def pad(self, text):

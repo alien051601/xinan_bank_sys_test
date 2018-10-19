@@ -2,11 +2,8 @@ import xlrd
 import os
 
 file_path = "D:\Mywork\合规工作流程20180711.xls"
-# Register_Login_ForgetPW
-# rlf_path ="D:\MyProjects\xinan_bank_sys_test\data_test\register_login_forgetpw.xls"
 rlf_path = "D:\\MyProjects\\xinan_bank_sys_test\\data_test\\register_login_forgetpw.xls"
-# print(os.getcwd())
-# rlf_path = os.getcwd()+"\\..\\data_test\\register_login_forgetpw.xls"
+
 
 
 # 从excel读取登录的信息

@@ -155,12 +155,7 @@ class Login(BaseApi):
             return None,res["msg"]
 
 if __name__ == '__main__':
-#
-#     # 注册接口测试数据
-#     r = RegisterApi(5)
-#     # msg = r.register()
-#     # print(msg)
-#
+
     # msg = r.read_register_data_excel(4)
     # print(msg)
 
